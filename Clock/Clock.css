@@ -1,0 +1,19 @@
+﻿body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(233 228 99);
+    overflow-y: hidden;
+}
+
+canvas{
+    width: 80%;
+    max-height: 80vh;
+    max-width: 80vh;
+}
+
+.referance {
+    position: absolute; 
+    bottom: 10px;
+}

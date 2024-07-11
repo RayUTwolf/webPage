@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="calculatorStyle.css" />
+</head>
+<body>
+    <div id="calculator">
+        <input id="display" readonly/>
+        <div id="keys">
+            <button onclick="appendToDisplay('+')" class="operator">+</button>
+            <button onclick="appendToDisplay('7')">7</button>
+            <button onclick="appendToDisplay('8')">8</button>
+            <button onclick="appendToDisplay('9')">9</button>
+            <button onclick="appendToDisplay('-')" class="operator">-</button>
+            <button onclick="appendToDisplay('4')">4</button>
+            <button onclick="appendToDisplay('5')">5</button>
+            <button onclick="appendToDisplay('6')">6</button>
+            <button onclick="appendToDisplay('*')" class="operator">*</button>
+            <button onclick="appendToDisplay('1')">1</button>
+            <button onclick="appendToDisplay('2')">2</button>
+            <button onclick="appendToDisplay('3')">3</button>
+            <button onclick="appendToDisplay('/')" class="operator">/</button>
+            <button onclick="appendToDisplay('0')">0</button>
+            <button onclick="appendToDisplay('.')">.</button>
+            <button onclick="calculate()">=</button>
+            <button onclick="clearDisplay()" class="operator">C</button>
+        </div>
+    </div>
+
+    <div id="referance">
+        <a href="https://www.youtube.com/watch?v=I5kj-YsmWjM&t=681s">tutorial</a>
+    </div>
+    <script src="Calculator.js"></script>
+</body>
+</html>

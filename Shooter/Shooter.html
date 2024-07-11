@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Shooter</title>
+    <link rel="stylesheet" type="text/css" href="Shooter.css" />
+</head>
+<body>
+    <div class="game">
+        <audio src="KiddingAround.mp3" id="BGmusic"></audio>
+        <canvas width="800" height="450" id="BGcanvas" style="border: 5px solid black"></canvas>
+        <div class="btn">
+            <button onclick="gameStart()" id="startBtn">START</button>
+            <button onclick="gameStart()" id="replayBtn">REPLAY</button>
+        </div>
+    </div>
+    <div class="control">
+        <button>UP</button>
+        <br />
+        <button>LEFT</button>
+        <button>DOWN</button>
+        <button>RIGHT</button>
+    </div>
+    <script src="Shooter.js"></script>
+    <div class="referance">
+        <a href="https://www.w3schools.com/graphics/game_intro.asp">tutorial</a>
+        /
+        <a href="https://mixkit.co/free-sound-effects/cat/">sound effects</a>
+    </div>
+</body>
+</html>

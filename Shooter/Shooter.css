@@ -1,0 +1,60 @@
+﻿body {
+    background-color: white;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    height: 100vh;
+}
+
+.game {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    /*background-color: darkslategrey;*/
+    width: 800px;
+    aspect-ratio: 16 / 9;
+    position: relative;
+}
+
+canvas {
+    width: 100%;
+    height: 100%;
+}
+
+.referance {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    bottom: 10px;
+}
+
+.btn {
+    position: absolute;
+    bottom: 30%;
+    left: 35%;
+    width: 30%;
+    height: 20%;
+}
+
+.btn button{
+    width: 100%;
+    height: 100%;
+}
+
+#replayBtn{
+    display: none;
+}
+
+.control{
+    display: none;
+}
+
+@media(max-width: 800px){
+    .game{
+        width: 500px;
+    }
+
+    .control{
+        display: block;
+    }
+}
