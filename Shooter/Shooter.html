@@ -16,11 +16,13 @@
         </div>
     </div>
     <div class="control">
-        <button>UP</button>
-        <br />
-        <button>LEFT</button>
-        <button>DOWN</button>
-        <button>RIGHT</button>
+        <div class="controlBtn"><button onmousedown="control('y', -1)" onmouseup="control('y', 0)" ontouchstart="control('y', -1)">UP</button></div>
+        <div class="controlBtn">
+            <button onmousedown="control('x', -1)" onmouseup="control('x', 0)" ontouchstart="control('x', -1)">LEFT</button>
+            <button onmousedown="control('firing', true)" onmouseup="control('firing', false)" ontouchstart="control('firing', true)">SHOOT</button>
+            <button onmousedown="control('x', 1)" onmouseup="control('x', 0)" ontouchstart="control('x', 1)">RIGHT</button>
+        </div>
+        <div class="controlBtn"><button onmousedown="control('y', 1)" onmouseup="control('y', 0)" ontouchstart="control('y', 1)">DOWN</button></div>
     </div>
     <script src="Shooter.js"></script>
     <div class="referance">

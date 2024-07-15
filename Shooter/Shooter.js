@@ -196,6 +196,12 @@ function keyUp(e) {
             break;
     }
 }
+function control(axis, value) {
+    //alert("input");
+    if (axis == "x") key[0] = value;
+    else if (axis == "y") key[1] = value;
+    else firing = value;
+}
 
 function randomColor() {
     var i = Math.floor(Math.random() * 6);
